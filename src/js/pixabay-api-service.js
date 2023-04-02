@@ -13,7 +13,7 @@ export default class PixabayService {
   }
 
   fetchImages() {
-    const url = `${PIXABAY_URL}?key=${KEY}&q=${this.searchQuery}&image_type=photo&orientation=horizontal&safesearch=false&per_page=${this.per_page}&page=${this.page}`;
+    const url = `${PIXABAY_URL}?key=${KEY}&q=${this.searchQuery}&image_type=photo&orientation=horizontal&safesearch=false&lang='en'&per_page=${this.per_page}&page=${this.page}`;
 
     return fetch(url)
       .then(response => {
