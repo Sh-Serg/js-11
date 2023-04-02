@@ -6,7 +6,7 @@ import {
   refreshGallerySimplelightbox,
 } from './js/simple-light-box';
 
-// import 'simplelightbox/dist/simple-lightbox.min.css';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const form = document.querySelector('#search-form');
 const galleryContainer = document.querySelector('.gallery');
