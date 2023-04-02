@@ -11,5 +11,3 @@ function refreshGallerySimplelightbox() {
 }
 
 export { createGallerySimplelightbox, refreshGallerySimplelightbox };
-
-// хрень
